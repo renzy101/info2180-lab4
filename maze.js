@@ -13,6 +13,7 @@ window.onload = function() {
             if (st) {
                 for (x = 0; x < boundaries.length; x++) {
                     boundaries[x].classList.add('youlose');
+                    document.getElementById("status").innerHTML = 'You Loose!';
                 }
             }
         });
